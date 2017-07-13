@@ -1,0 +1,107 @@
+body
+{
+	background-color:white;
+	font-family: 'Indie Flower', cursive;
+	font-size:22px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	color:black;
+}
+
+#logo
+{
+	background-color:#979899;
+	color: black;
+	font-size:35px;
+	text-align: center;
+	letter-spacing:3px;
+	font-weight:600;
+	padding:21px;
+	height:35px;	
+}
+
+#frame
+{
+	float: left;
+	width:14px;
+	min-height:1080px;
+	background-color:#efefef;
+}
+
+#data
+{
+	float: left;
+	width:320px;
+	min-height:1080px;
+	background-color:#ddefc9;
+	color:#664000;
+	padding-left:2px;
+}
+
+#content
+{
+	float: left;
+	background-color:#efefef;
+	width:518px;
+	height:1080px;
+	padding-left:14px;
+	padding-right:132px;
+	text-align:justify;
+	font-size:20px;
+}
+
+#footer
+{
+	clear: both;
+	background-color:#979899;
+	height:119px;
+	text-align:justify;
+	padding-left:14px;
+}
+
+#circle
+{
+	border-radius:100%;
+	background-color:orange;
+	background-image:url("user200.png");
+	background-repeat:no-repeat;
+	background-position:center center;
+	border: 5px solid red;
+	border-right-width:8px;
+	height:200px;
+	width:200px;
+	margin-left:61px;
+}
+
+.rect
+{
+	background-color:#c8e0ac;
+	height:35px;
+	width:322px;
+	padding-left:0%;
+}
+
+.rectangle
+{
+	background-color:#e3e4e5;
+	height:35px;
+	/*width:532px;*/
+	margin-top:21px;
+}
+
+p
+{
+	font-size:24px;
+	font-weight:600;
+	margin-left:5px;
+}
+
+td
+{
+	width:177.333px;
+}
