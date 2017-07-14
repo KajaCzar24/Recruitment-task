@@ -16,31 +16,25 @@ body
 #logo
 {
 	background-color:#979899;
-	color: black;
+	color:black;
 	font-size:35px;
-	text-align: center;
+	text-align:center;
 	letter-spacing:3px;
 	font-weight:600;
-	padding:21px;
-	height:35px;	
-}
-
-#frame
-{
-	float: left;
-	width:14px;
-	min-height:1080px;
-	background-color:#efefef;
+	/*padding-bottom:21px;
+	padding-top:21px;*/
+	height:77px;
 }
 
 #data
 {
 	float: left;
 	width:320px;
-	min-height:1080px;
+	min-height:1100px;
 	background-color:#ddefc9;
 	color:#664000;
 	padding-left:2px;
+	border-left: 14px solid #efefef;
 }
 
 #content
@@ -48,7 +42,7 @@ body
 	float: left;
 	background-color:#efefef;
 	width:518px;
-	height:1080px;
+	min-height:1240.75px;
 	padding-left:14px;
 	padding-right:132px;
 	text-align:justify;
@@ -62,16 +56,17 @@ body
 	height:119px;
 	text-align:justify;
 	padding-left:14px;
+	padding-right:14px;
 }
 
 #circle
 {
 	border-radius:100%;
-	background-color:orange;
+	background-color:#bf7e15;
 	background-image:url("user200.png");
 	background-repeat:no-repeat;
 	background-position:center center;
-	border: 5px solid red;
+	border: 5px solid #b70000;
 	border-right-width:8px;
 	height:200px;
 	width:200px;
@@ -83,7 +78,6 @@ body
 	background-color:#c8e0ac;
 	height:35px;
 	width:322px;
-	padding-left:0%;
 }
 
 .rectangle
@@ -94,7 +88,7 @@ body
 	margin-top:21px;
 }
 
-p
+.header
 {
 	font-size:24px;
 	font-weight:600;
@@ -104,4 +98,20 @@ p
 td
 {
 	width:177.333px;
+}
+
+#data > p
+{
+	padding-left:3px;
+}
+
+#logo > h4
+{
+	padding:10px;
+	margin:0;
+}
+
+#footer > p > b
+{
+	font-size:24px;
 }
